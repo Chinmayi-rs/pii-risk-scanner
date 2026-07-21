@@ -1,7 +1,7 @@
 # PII Risk Scanner
 
 A Python tool that scans tabular datasets for personally identifiable information (PII), 
-classifies overall risk severity, and generates an audit-style HTML/CSV report — 
+classifies overall risk severity, and generates an audit-style HTML/CSV report - 
 built as a lightweight example of sensitive data discovery, similar in concept to 
 enterprise DLP (Data Loss Prevention) tooling.
 
@@ -9,32 +9,32 @@ enterprise DLP (Data Loss Prevention) tooling.
 
 I'm currently completing a Master's in Cybersecurity (with a background in a Bachelor's 
 of Computer Science and software development internships). This project explores how 
-sensitive data discovery and risk classification work in practice — the kind of problem 
+sensitive data discovery and risk classification work in practice - the kind of problem 
 relevant to any organisation handling client data at scale.
 
 ## What it does
 
-1. **Generates synthetic test data** — a fake customer dataset (names, emails, AU phone 
+1. **Generates synthetic test data** - a fake customer dataset (names, emails, AU phone 
    numbers, credit card numbers) using the `Faker` library, so no real personal data is 
    ever used.
 2. **Scans every column of the dataset** using regex pattern matching to detect:
    - Email addresses
    - Australian phone numbers
-   - Credit card numbers (validated using the **Luhn algorithm** to reduce false positives — 
+   - Credit card numbers (validated using the **Luhn algorithm** to reduce false positives - 
      the same checksum method used in real payment card validation)
 3. **Assesses risk** based on the type and volume of PII found (e.g. any credit card 
    detection automatically triggers a "High" risk rating due to PCI-DSS implications).
-4. **Generates a report** — both a machine-readable CSV and a styled HTML report with a 
+4. **Generates a report** - both a machine-readable CSV and a styled HTML report with a 
    colour-coded risk banner, breakdown by PII type/column, and a masked findings table 
-   (no PII is ever shown unmasked, even though the data is synthetic — a deliberate 
+   (no PII is ever shown unmasked, even though the data is synthetic - a deliberate 
    design choice reflecting good data-handling practice).
 
 ## Tech stack
 
 - Python 3.11
-- `pandas` — data handling
-- `Faker` — synthetic test data generation
-- `re` (regex) — pattern-based PII detection
-- Custom Luhn algorithm implementation — credit card validation
+- `pandas` - data handling
+- `Faker` - synthetic test data generation
+- `re` (regex) - pattern-based PII detection
+- Custom Luhn algorithm implementation - credit card validation
 
 ## Project structure
