@@ -50,11 +50,13 @@ pii-risk-scanner/
 ```
 ## How to run it
 
+```bash
 pip install pandas faker
 python generate_sample_data.py
 python report.py
+```
 
-Open reports/pii_report.html in a browser to view the report.
+Open `reports/pii_report.html` in a browser to view the report.
 
 ## Known limitations
 
