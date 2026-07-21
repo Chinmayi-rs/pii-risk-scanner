@@ -67,10 +67,3 @@ Open `reports/pii_report.html` in a browser to view the report.
   checked against every detector. This is a deliberate trade-off - it means the tool 
   also catches PII sitting in the wrong column - but it's a known source of noise.
 - Built as a 2-day proof-of-concept, not a production-grade DLP solution.
-
-## About me
-
-Chinmayi Ravishankar Sadavarthi - Master's student in Cybersecurity, RMIT University, with a background 
-in software development. 
-
-Email - sadavarthichinmayi@gmail.com
