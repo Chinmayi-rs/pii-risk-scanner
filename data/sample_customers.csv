@@ -1,0 +1,201 @@
+customer_id,name,email,phone,credit_card,signup_date,product
+1,Tamara Bridges,imiller@example.net,+61 8 5318 2429,2229029354697237,2024-01-19,ea
+2,Dawn Ellison,patrick05@example.com,+61.423.350.822,376436500531282,2023-07-12,numquam
+3,Jake Henderson,jacksonandrea@example.com,55321228,3516649842958964,2020-04-24,debitis
+4,Kerry Moore,iwilson@example.org,(02).6701.8672,4836585505108417,2021-03-10,minima
+5,Rebecca Castro,uadams@example.com,+61352970121,6011018780695066,2021-04-07,minima
+6,Breanna Perez,morganronald@example.com,(03) 2690 7229,4634720433834181855,2024-05-31,quae
+7,Randy Le,avilajudy@example.com,+61 455 706 853,3512205454059619,2020-06-11,architecto
+8,Breanna Bonilla,nashdylan@example.net,6862 5425,4762407623151047,2023-11-18,placeat
+9,Kimberly Barnes,schaefermichael@example.com,+61-486-959-903,3541443839250448,2023-02-14,illum
+10,James Rosales MD,julianrowland@example.com,0816 5522,213107864482175,2022-07-27,nobis
+11,Elijah Martinez,farrellnicole@example.net,02 8851 0893,4447616787746906376,2026-02-21,ab
+12,Travis Myers,zyoung@example.org,03 6938 7759,30360356190837,2023-01-05,et
+13,John Thompson,nancyjoyce@example.com,+61-7-7732-3467,3596761428614524,2021-06-14,distinctio
+14,Samuel Cooper,john81@example.org,+61.2.8282.8413,373603150724094,2023-08-24,eos
+15,Travis Schmidt,johnblack@example.com,(02) 8911 4601,2296588291041963,2024-07-25,odit
+16,Karen Boyer,christianhenderson@example.com,(08)34051003,345274920435604,2025-11-14,error
+17,Gregory Clark,walkerwendy@example.org,0403-356-180,4675362800970368528,2020-05-21,nisi
+18,Charles Hawkins,cpatel@example.net,+61-2-8250-7910,4028143447206,2026-07-17,voluptas
+19,Taylor Wells,nmclaughlin@example.net,03.6587.9076,3589247565666898,2023-06-26,omnis
+20,Danielle Scott,irobinson@example.com,+61 472 085 102,5569491244436401,2022-08-01,facilis
+21,Anne Boyer,mhernandez@example.org,7926 1444,3534699914259542,2022-11-01,soluta
+22,Tina Fischer,reneebaker@example.org,(07)-5507-4569,4741339463635,2020-09-26,et
+23,Christian Castillo,bradfordaaron@example.net,08-6216-9956,2422196080966973,2022-12-31,qui
+24,Kendra Roman,oanderson@example.net,+61.489.833.999,3586524476147405,2020-05-24,pariatur
+25,Antonio Gardner,anaperkins@example.com,8396 0236,3593913447756306,2021-01-16,repellat
+26,Margaret Nguyen,williamskelly@example.org,02.2542.1228,502022372697,2023-02-12,maiores
+27,Mrs. Kathryn Diaz MD,david95@example.org,9532 4668,3596663865975782,2022-07-10,mollitia
+28,Billy Tanner,noahbaker@example.com,+61-7-0920-1904,180051186685017,2021-09-07,alias
+29,Meghan Rivers,jordanyolanda@example.com,+61-8-2304-2958,30543504463640,2021-05-09,inventore
+30,Richard Thompson,williamskimberly@example.net,0403-492-153,4799863340624467,2021-02-06,velit
+31,Jennifer Skinner,goodmancynthia@example.net,+61-3-1175-5254,4168552407943893,2024-01-10,temporibus
+32,Meredith Kelly,patrickkhan@example.net,08.5130.8130,180089897692310,2024-01-11,ad
+33,David Alvarez II,claire54@example.org,(08) 8534 6974,4293720343465926590,2020-07-08,quae
+34,Emily Berg,morsesarah@example.net,+61729325611,4411529530477616182,2020-11-05,quisquam
+35,John Ramirez,martinhall@example.com,0447 521 781,4521211400429887,2020-03-21,animi
+36,Daniel Forbes,sheri30@example.net,(02) 9479 7802,503877730898,2023-08-25,suscipit
+37,Gabriella Beard,charles78@example.com,(03)83742945,180028862265306,2023-11-22,eveniet
+38,Mark Collins,ortizhunter@example.org,(03) 9568 9799,4729526438346,2021-09-09,repellendus
+39,Dr. Aaron King,bthomas@example.net,(03)18649488,4351930038982950,2020-03-28,ab
+40,Samuel Pham,afields@example.com,8075 0704,349717461794330,2022-05-15,ducimus
+41,Katrina Pittman,susan57@example.com,0492 175 988,3579202508923932,2024-02-17,consequuntur
+42,Shelby Williams,lori80@example.net,5508 2279,3506290366412286,2024-12-20,harum
+43,Jeremy Carter,amandarowland@example.net,+61 3 1874 3791,4966262193187241348,2024-08-24,porro
+44,Barry Hill,brookswilliam@example.net,(07) 0594 1988,578270504165,2021-05-02,praesentium
+45,Carla Rodriguez,fullerlinda@example.org,41142192,30343775036807,2020-09-25,tenetur
+46,John Cox,uowen@example.org,+61.430.517.763,6592121973243442,2023-03-21,deserunt
+47,Richard Parker,debra35@example.com,+61-3-3128-7742,4994867212370144,2022-05-20,reprehenderit
+48,Shawn Romero,vduffy@example.com,6957-9967,639038540733,2021-02-04,dignissimos
+49,Dr. Sean Riley,keith33@example.org,0489-742-072,4583774149756550,2023-01-26,iusto
+50,Sydney Mccormick,corey32@example.net,+61-7-6493-0809,347189582628791,2024-05-13,unde
+51,Justin Miller,kevin69@example.org,0375267190,4283079000478115987,2025-02-19,dicta
+52,Christopher Wilson,kellykelsey@example.com,(02) 6371 7434,3520256822300177,2022-05-01,at
+53,Gerald Elliott,gallegosraymond@example.org,02 4144 3096,4810744873686,2020-12-31,libero
+54,Evelyn Davis,ramseybrian@example.org,02 9128 5674,6591414968876248,2021-04-13,molestias
+55,Corey Miller,qdavis@example.net,1901-5140,2373236222704400,2020-02-08,facilis
+56,John Barron,tammiecarr@example.net,+61.460.591.725,4915486702658904,2020-04-05,quasi
+57,Donald Harris,jenniferwilliams@example.org,+61.481.853.210,4699565629891,2020-10-29,tempora
+58,Sharon Neal,elizabeth48@example.org,9825-1334,180028044925843,2022-03-08,numquam
+59,Laura Richardson,milleramy@example.org,02.3723.4265,4851759244980275,2022-02-28,perspiciatis
+60,Charles Jones,francisrita@example.net,(02).9048.7187,4603595368051484458,2023-09-03,rem
+61,Brian Vazquez,lisajackson@example.com,9675-0426,3502057522016721,2021-03-11,veniam
+62,Damon Lowery,kelseyjohnson@example.com,+61339742990,6011778959098919,2021-12-31,doloremque
+63,Tyler Ibarra,fischerjessica@example.org,0402-967-482,4731667553426863773,2021-10-27,nesciunt
+64,Angel Robertson,jason14@example.net,7662-8180,2297483857471714,2023-03-06,unde
+65,Benjamin Blair,molly64@example.org,07-0248-7578,4947486403185105316,2026-03-29,sint
+66,Stephanie Spears,stephanierichardson@example.net,(08) 7059 7086,4173431415097146,2023-08-10,sed
+67,Joshua Clark,sherri85@example.org,(07)53878977,36108029224424,2025-08-31,occaecati
+68,Erica Gallagher,poncebrittany@example.org,(08) 3687 9613,6558205798221436,2025-10-08,accusamus
+69,Matthew Henry,vfinley@example.org,9732.0762,373792373901017,2024-03-30,quisquam
+70,Paige Wood,wgray@example.net,9013.4754,4200909995366138415,2026-02-14,quibusdam
+71,Amanda Shaw,tpalmer@example.com,0346 1947,6562293644550004,2021-09-17,voluptas
+72,Gordon Gray,obarnes@example.net,+61-7-8402-1548,30181714832286,2020-09-24,ipsam
+73,Valerie Moore,grant13@example.org,+61-2-5226-6909,4100552103962511,2025-06-26,nisi
+74,Cheryl Brown,hughesjeffrey@example.net,+61710693396,576890044836,2020-12-27,dolorem
+75,Brett Richardson,charleslewis@example.org,(08)-5353-1206,4980991791551688,2024-07-27,blanditiis
+76,Tammy Mosley,hayescatherine@example.org,+61857065426,6520133888430466,2021-09-08,aut
+77,Benjamin Franco,achavez@example.com,7808.4448,5459421741239548,2024-08-28,quod
+78,Steven Merritt,tcooper@example.net,+61850939618,372627467026217,2022-10-11,commodi
+79,Kristi Jarvis,uadams@example.org,81095627,630419149517,2022-02-06,repellat
+80,Michael Morgan,portertimothy@example.net,08-7919-5843,4780811596452274,2020-04-06,voluptatum
+81,Shane Welch,smithleah@example.net,+61755724143,4234942182708548,2025-10-22,delectus
+82,Mary Rodriguez,otaylor@example.com,+61-420-805-527,4842637086662,2021-11-29,ipsa
+83,Heather Marquez,gmooney@example.net,03 4687 5172,4925425045972,2025-10-31,eum
+84,Tamara Jones,joannemiller@example.com,+61-466-198-414,4171181512047278,2022-06-01,ipsa
+85,Valerie Gonzalez,jeremiah54@example.com,0416 746 808,4452864602410980640,2022-07-03,cumque
+86,Thomas Davis,dortiz@example.net,(03) 5341 1573,6011563944127183,2020-05-15,distinctio
+87,Barbara Crane,aadams@example.com,+61.482.367.640,4144266020203739,2023-01-24,possimus
+88,David Sanchez,tturner@example.net,0453 418 942,342847046079886,2022-05-21,eum
+89,Shari Morton,diazrobert@example.org,0425 269 998,060435801810,2026-07-18,dolorem
+90,Melissa Brown,osmith@example.net,0851264092,3598245680239285,2022-05-16,quasi
+91,Emily Vincent,alice02@example.com,+61.7.2470.3704,502063012699,2024-09-03,excepturi
+92,Kimberly Howell,aaron93@example.net,(08).7770.9747,3542375995023764,2026-01-23,quam
+93,Amanda Nelson,cjackson@example.com,0473 754 770,630499917957,2025-11-15,dolores
+94,Gina Davis,umurray@example.org,(07) 5599 5449,060418773044,2025-10-28,quae
+95,Peter Boyd,wharrison@example.net,8477.4202,3564171081621766,2021-09-20,culpa
+96,Kelly Patrick,shaunrodriguez@example.org,08 4752 1898,4162813401022753,2025-12-26,quaerat
+97,Zachary Martin,philiphorn@example.net,0428 857 635,4250062022564339,2020-04-13,rem
+98,Vanessa Harris,angelablanchard@example.net,8373 7752,3541356127662555,2023-12-26,pariatur
+99,Arthur White,aliciaatkins@example.com,+61.2.8186.7107,4555317653581,2021-10-23,commodi
+100,Sheri Gilbert,kerrchad@example.com,(03).4618.4342,4661147499216779,2021-10-13,rerum
+101,Joshua Coleman,angelacook@example.org,5882-0457,3515453302175230,2024-12-04,rem
+102,Justin Malone,pshaw@example.net,(08) 0787 5353,30310117238086,2021-07-28,iusto
+103,Jessica Morris,sara61@example.net,+61-7-1334-7258,180074084444717,2025-09-25,exercitationem
+104,Melissa Diaz MD,jeff50@example.com,(07)-7291-7685,180008897338237,2020-11-04,enim
+105,Jonathan Serrano,mollysantiago@example.com,(02)-8669-8463,3585021340996019,2024-05-20,hic
+106,Alexandra Jimenez,ortizrussell@example.com,(07).5274.7966,30352673545850,2023-04-10,accusamus
+107,Amanda Steele,stephanieleonard@example.net,76868201,30373412038791,2020-02-23,temporibus
+108,Ryan Hamilton,monique09@example.org,08.1165.7065,2279086367290631,2021-01-15,magnam
+109,Elizabeth Russell,david16@example.org,1883.3236,4081386344549,2021-08-02,iusto
+110,Michael Ayala,jeremy67@example.com,08.9546.4798,30182302312111,2021-12-29,adipisci
+111,Nicole Spencer,patrickross@example.com,2127 9950,30333282715704,2025-08-04,alias
+112,Darren Barnes,christopher39@example.com,+61.434.221.840,2269979839369284,2025-06-04,eos
+113,Lisa Figueroa,amandaschmidt@example.com,(08)26194563,4641476205161556,2021-03-03,distinctio
+114,Barbara Suarez,ryan64@example.com,0486 399 586,4114605664926616,2025-02-27,molestiae
+115,Dylan Jones,wilsonmatthew@example.net,08-7959-6376,4131316359402298,2025-11-15,reprehenderit
+116,Shannon Lin DVM,christopher06@example.net,+61 3 8762 7264,4688317391447,2023-11-23,nisi
+117,Cindy Barnes,reedsara@example.net,7631.7874,3561004699998206,2024-06-22,dicta
+118,Marcus Crane,nperry@example.org,4256-9264,2679614330859707,2025-01-06,optio
+119,Sarah Barnes,otaylor@example.com,+61 3 7406 1672,3546160143932009,2020-12-11,iure
+120,Stanley Houston,bankscassandra@example.net,45298572,30580654312854,2025-01-23,autem
+121,Richard King,mwright@example.net,(02)-0838-3634,4971142109131042,2022-04-29,quas
+122,Jason Spence,dritter@example.com,+61 3 7915 0040,4762753392455675,2020-06-27,delectus
+123,Kevin Adams,fordcassandra@example.com,0477.389.679,4693535577405,2024-02-01,sed
+124,Nicholas Fritz,xconway@example.org,+61-429-171-507,6572046965950684,2024-04-22,dignissimos
+125,Stephen Wilkinson,faguirre@example.com,(03) 6319 0471,639058165254,2025-03-31,odio
+126,Kevin Burns,brianna61@example.com,0418-573-094,4804161706942021385,2023-03-01,officiis
+127,Jacqueline Nguyen DDS,hendersonrodney@example.net,08 4339 4428,213145209729165,2023-12-16,voluptates
+128,Robert Rose,brian93@example.com,5880 6456,30221045152317,2020-07-07,minus
+129,Justin Cox,zmullins@example.com,0415 495 236,3599723759042557,2021-02-04,nam
+130,Anne Myers,hillanthony@example.net,+61.431.560.927,4494817062491,2023-01-27,accusamus
+131,Mr. Matthew Crawford,goodmanjoshua@example.com,(08)-5858-0298,6571263988763058,2023-07-18,amet
+132,Melissa Roman,fhuynh@example.com,+61 447 125 928,4317008494183,2021-12-22,eveniet
+133,Donna Perry,kmarquez@example.com,(02).5819.1231,4734963730645615,2022-04-04,modi
+134,Gavin Gallagher,james88@example.net,03 1316 9518,4220916872607539,2023-09-26,voluptatibus
+135,Dr. Angela Brewer,jessica39@example.com,02-0218-1403,4233192915312215,2024-01-03,iure
+136,Christopher Evans,codypittman@example.org,0393541772,4776582543783973494,2025-01-24,perferendis
+137,Nathaniel Mcdonald,robertlopez@example.net,0406.944.492,4298559610197,2021-08-26,fugit
+138,Amanda Webb,paulbrooks@example.com,+61 410 829 858,6538801150994761,2025-11-16,nostrum
+139,Brendan Moore,rebeccawright@example.com,(02)57547679,213168408251252,2026-06-19,eveniet
+140,Daniel Davis,richardsonadam@example.org,6649.3831,4068898598393492,2020-08-01,illo
+141,James Walsh,ryanhoward@example.org,(02).3237.6209,561661704586,2022-01-29,quasi
+142,Michelle Pope,scottstevens@example.com,(08)-3754-7768,4875614607376725827,2021-12-19,at
+143,Cathy Raymond,anthony49@example.net,+61245523466,4603163524903126,2021-01-12,amet
+144,Mark Lin,bishopjason@example.net,4893.9659,340343832542768,2024-03-02,provident
+145,Megan Bell,sanchezlouis@example.net,+61 460 779 103,213151065645479,2023-11-25,exercitationem
+146,Cody Turner,nicole72@example.net,9244 1149,561836132598,2021-11-21,ipsa
+147,James Thompson,alexanderscott@example.net,5787-6811,5480999604403577,2025-09-30,ea
+148,Theresa Thompson,ypatel@example.com,+61.8.3507.5303,4073565487628915,2022-12-02,id
+149,Heather Noble,lisavilla@example.org,6341.6515,4840105497551,2021-03-14,perspiciatis
+150,Jordan Cowan,michelle77@example.org,(02).0039.7530,30197545263087,2023-07-29,iste
+151,Christopher Barnett,howardlaura@example.net,(03).1300.6011,343270388712080,2020-04-18,est
+152,Lisa Brown,cruzanna@example.org,+61801617525,4498377091964,2022-08-29,optio
+153,Bryan Hamilton,bradfordjason@example.org,+61 432 378 169,2266034656740481,2020-04-30,in
+154,Ryan Cannon,katiebates@example.com,0463-347-594,2677342886734619,2024-08-15,tenetur
+155,Laurie Walsh,petermcconnell@example.net,(07).5545.5790,4950456107895902,2022-07-12,delectus
+156,Garrett Sharp,wneal@example.org,02.0308.0380,213121872013260,2023-01-18,necessitatibus
+157,Rebecca Ayala,torresmelanie@example.net,0403-8591,3512473901170203,2021-05-28,ut
+158,Melissa Hill,vortega@example.net,+61.448.507.360,340242746996146,2024-05-07,at
+159,Roger Smith,karenmaxwell@example.net,02.0027.9809,3554873508614876,2020-02-07,aut
+160,Noah Byrd,combsdebra@example.net,(08) 7702 9260,675915047731,2021-11-20,maiores
+161,Lawrence Carter,debbie63@example.org,+61272806001,6011136991244217,2022-09-27,at
+162,Alan Morgan,raymond37@example.com,+61747873740,3589861314889435,2024-08-24,eos
+163,Patricia Ayers,adamsdeanna@example.com,+61 410 921 075,4837008052041559,2021-03-28,est
+164,Guy Lambert,kfleming@example.net,8252-9603,30115132204132,2021-09-16,vero
+165,Kerri Reyes,olsonjoanna@example.org,+61-449-491-228,060400558197,2025-12-10,amet
+166,Daryl Wagner,bill61@example.com,0314313141,4554964585629715612,2020-03-15,quas
+167,Tiffany Smith,dgarcia@example.com,69613133,213116719378645,2025-10-07,dignissimos
+168,Whitney Soto,matthewcruz@example.net,+61.8.1359.7681,4249948009539506,2023-01-24,modi
+169,Danny Richardson,dunnashley@example.org,+61.2.6212.3910,4103099346743271,2023-04-19,exercitationem
+170,Bobby Duncan,beth29@example.net,+61347389798,588503553046,2023-04-23,aliquid
+171,William Heath,jessicakelly@example.org,(08).1354.8473,3564837548373403,2020-09-13,ipsa
+172,Melissa Daniels,brent71@example.net,+61 423 144 528,4822070384834126373,2024-06-13,consequuntur
+173,Stacey Smith,elizabeththomas@example.net,03.3929.8409,3540613494479513,2024-08-16,cum
+174,Nicholas Carter,anthonyhall@example.com,0405-974-743,213115256340216,2020-12-20,maxime
+175,Julie Thomas,carolyn39@example.net,+61.3.9847.2049,3599477509670502,2020-08-22,iste
+176,Scott Andrews,richardsalbert@example.com,(02)-2140-1083,30144649963675,2025-12-07,dolores
+177,Russell Watson,lewisjames@example.org,+61-463-287-948,4980993389363989,2025-04-04,porro
+178,Sean Smith,clarktimothy@example.com,0450 025 595,4304279439146353,2020-04-21,optio
+179,Katrina May,barryjacqueline@example.net,4320-2022,4774174830995857,2025-09-03,dolore
+180,Melissa Whitehead,tuckersarah@example.net,+61.486.642.592,2297365261415934,2026-06-23,neque
+181,Jennifer Jarvis,michael18@example.net,02 9781 2188,6011488992339771,2022-04-19,deserunt
+182,James Peters,icline@example.com,+61.451.869.279,4843659670483797,2024-03-23,nostrum
+183,Erin Robinson,hartmanjohn@example.net,03-4196-4927,502017725982,2024-02-28,assumenda
+184,Michael Haney,christineedwards@example.com,(07)61561793,4577392470722113,2021-01-10,autem
+185,Luis Bradford,davisdawn@example.net,(07)-6559-6098,6585503710798029,2026-02-05,libero
+186,Erin Armstrong,dayheather@example.net,0476-606-158,2288459635252163,2022-11-12,doloribus
+187,Mr. Kenneth Harper,lovehannah@example.com,(07) 1154 4582,30198810473054,2021-02-26,perferendis
+188,Brad Murillo,wrightthomas@example.org,(08)37710681,2244189660780753,2023-06-14,at
+189,Courtney Walker,amandadavis@example.org,30902481,30120718074941,2024-03-31,non
+190,Caitlin Castillo,bellronald@example.org,(07).2692.8371,3506916270049877,2020-02-12,placeat
+191,Cynthia Davis MD,cathysmith@example.org,03.5254.7540,30114735020656,2025-09-26,voluptatum
+192,Kelly Webb,taylorsanchez@example.net,+61786788003,377716205737725,2021-08-11,nemo
+193,Dawn Wells,lflowers@example.net,02-9489-3898,4532132955585377,2025-08-03,sint
+194,Jacqueline Burton,randall61@example.org,+61-491-939-417,4759536898475770985,2023-06-20,qui
+195,Emily Jacobs DVM,garcianancy@example.com,+61-2-2310-8467,213173185588736,2021-07-17,exercitationem
+196,Joshua Turner,alicia36@example.com,+61.444.272.378,2281331999082998,2024-03-10,ipsam
+197,Melinda Baker,jeffery19@example.org,(08) 1718 7107,3519514668567843,2022-10-25,impedit
+198,Cameron Lee,leanthony@example.org,(03)38692302,4656996966540,2021-06-22,saepe
+199,Bianca Gross,robertbrown@example.org,02-7549-6418,213139011912887,2025-01-05,consectetur
+200,John Kirk,stewartwayne@example.net,02336163,379314382154654,2021-07-06,suscipit
