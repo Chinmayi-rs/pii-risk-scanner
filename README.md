@@ -70,4 +70,4 @@ Open reports/pii_report.html in a browser to view the report.
 
 Chinmayi Ravishankar Sadavarthi - Master's student in Cybersecurity, RMIT University, with a background 
 in software development. 
-[LinkedIn - www.linkedin.com/in/chinmayi-r-s-aa1889254] | [Email - sadavarthichinmayi@gmail.com]
+[Email - sadavarthichinmayi@gmail.com]
