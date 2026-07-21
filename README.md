@@ -39,14 +39,15 @@ relevant to any organisation handling client data at scale.
 
 ## Project structure
 
+```
 pii-risk-scanner/
-├── generate_sample_data.py   (Creates synthetic test dataset)
-├── detectors.py               (Regex + Luhn detection logic)
-├── scanner.py                  (Scans dataset, aggregates findings, assesses risk)
-├── report.py                   (Generates CSV + HTML reports)
-├── data/                       (Generated sample dataset)
-└── reports/                    (Generated output reports)
-
+├── generate_sample_data.py   # Creates synthetic test dataset
+├── detectors.py              # Regex + Luhn detection logic
+├── scanner.py                # Scans dataset, aggregates findings, assesses risk
+├── report.py                 # Generates CSV + HTML reports
+├── data/                      # Generated sample dataset
+└── reports/                   # Generated output reports
+```
 ## How to run it
 
 pip install pandas faker
