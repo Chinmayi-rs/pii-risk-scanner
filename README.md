@@ -38,3 +38,35 @@ relevant to any organisation handling client data at scale.
 - Custom Luhn algorithm implementation - credit card validation
 
 ## Project structure
+
+pii-risk-scanner/
+├── generate_sample_data.py   (Creates synthetic test dataset)
+├── detectors.py               (Regex + Luhn detection logic)
+├── scanner.py                  (Scans dataset, aggregates findings, assesses risk)
+├── report.py                   (Generates CSV + HTML reports)
+├── data/                       (Generated sample dataset)
+└── reports/                    (Generated output reports)
+
+## How to run it
+
+pip install pandas faker
+python generate_sample_data.py
+python report.py
+
+Open reports/pii_report.html in a browser to view the report.
+
+## Known limitations
+
+- Regex-based name detection isn't implemented (unstructured, high false-positive risk) - 
+  a production tool would use NLP/NER models for this.
+- The phone detector can occasionally flag digit substrings within other numeric fields 
+  (e.g. credit card numbers) as false-positive phone matches, since every column is 
+  checked against every detector. This is a deliberate trade-off - it means the tool 
+  also catches PII sitting in the wrong column - but it's a known source of noise.
+- Built as a 2-day proof-of-concept, not a production-grade DLP solution.
+
+## About me
+
+Chinmayi Ravishankar Sadavarthi - Master's student in Cybersecurity, RMIT University, with a background 
+in software development. 
+[LinkedIn - www.linkedin.com/in/chinmayi-r-s-aa1889254] | [Email - sadavarthichinmayi@gmail.com]
