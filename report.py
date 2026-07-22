@@ -26,10 +26,6 @@ def generate_csv_report(findings: list, output_path: str = "reports/pii_findings
 
 
 def generate_html_report(findings: list, risk: dict, output_path: str = "reports/pii_report.html"):
-    """
-    Writes a human-readable HTML report:
-    risk banner first, then summary breakdowns, then full findings table.
-    """
     os.makedirs(os.path.dirname(output_path), exist_ok=True)
     summary = summarize(findings)
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
