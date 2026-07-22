@@ -3,11 +3,6 @@ from detectors import find_emails, find_phones, find_credit_cards
 
 
 def mask_value(value: str) -> str:
-    """
-    Masks a sensitive value for safe display in reports.
-    Never show full PII, even fake data — good practice to demonstrate.
-    e.g. 'john.doe@example.com' -> 'jo***********om'
-    """
     value = str(value)
     if len(value) <= 4:
         return "*" * len(value)
@@ -15,11 +10,6 @@ def mask_value(value: str) -> str:
 
 
 def scan_dataframe(df: pd.DataFrame) -> list:
-    """
-    Scans every cell in the DataFrame for PII.
-    Returns a list of findings, each a dict with:
-    row index, column name, PII type, and masked value.
-    """
     findings = []
 
     for col in df.columns:
@@ -55,21 +45,17 @@ def scan_dataframe(df: pd.DataFrame) -> list:
     return findings
 
 def assess_risk(findings: list, total_rows: int) -> dict:
-    """
-    Takes the list of findings from scan_dataframe() and produces
-    a risk level + human-readable justification.
-    """
     card_findings = [f for f in findings if f["pii_type"] == "credit_card"]
     email_findings = [f for f in findings if f["pii_type"] == "email"]
     phone_findings = [f for f in findings if f["pii_type"] == "phone"]
 
-    # unique rows that have at least one PII finding of any type
+    #unique rows that have at least one PII finding of any type
     affected_rows = set(f["row"] for f in findings)
     pct_affected = (len(affected_rows) / total_rows) * 100 if total_rows else 0
 
     num_cards = len(card_findings)
 
-    # --- risk rules, most severe checked first ---
+    #risk rules, most severe checked first
     if num_cards > 0:
         level = "High"
         reason = (
