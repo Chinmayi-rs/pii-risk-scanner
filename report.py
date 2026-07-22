@@ -3,6 +3,7 @@ import csv
 from datetime import datetime
 from collections import Counter
 import pandas as pd
+from PIL import Image, ImageDraw, ImageFont
 from scanner import scan_dataframe, assess_risk
 
 
@@ -106,6 +107,48 @@ def generate_html_report(findings: list, risk: dict, output_path: str = "reports
         f.write(html)
     print(f"HTML report written to {output_path}")
 
+    from PIL import Image, ImageDraw, ImageFont
+
+
+def generate_banner_image(risk: dict, output_path: str = "reports/risk_banner.png"):
+    os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+    risk_colors = {
+        "High": (211, 47, 47),
+        "Medium-High": (245, 124, 0),
+        "Medium": (251, 192, 45),
+        "Low": (56, 142, 60),
+    }
+    bg_color = risk_colors.get(risk["risk_level"], (117, 117, 117))
+
+    width, height = 900, 220
+    img = Image.new("RGB", (width, height), color=bg_color)
+    draw = ImageDraw.Draw(img)
+
+    # Try to load a clean font; fall back to default if unavailable
+    try:
+        title_font = ImageFont.truetype("arialbd.ttf", 40)
+        text_font = ImageFont.truetype("arial.ttf", 22)
+        small_font = ImageFont.truetype("arial.ttf", 18)
+    except OSError:
+        title_font = ImageFont.load_default()
+        text_font = ImageFont.load_default()
+        small_font = ImageFont.load_default()
+
+    padding = 40
+    draw.text((padding, 30), "PII Risk Scan Report", fill="white", font=title_font)
+    draw.text((padding, 90), f"Risk Level: {risk['risk_level']}", fill="white", font=text_font)
+    draw.text((padding, 125), risk["reason"], fill="white", font=small_font)
+    draw.text(
+        (padding, 165),
+        f"{risk['total_rows']} rows scanned | {risk['affected_rows']} rows affected ({risk['pct_affected']}%)",
+        fill="white",
+        font=small_font,
+    )
+
+    img.save(output_path)
+    print(f"Banner image saved to {output_path}")
+
 
 if __name__ == "__main__":
     df = pd.read_csv("data/sample_customers.csv")
@@ -119,3 +162,4 @@ if __name__ == "__main__":
 
     generate_csv_report(findings)
     generate_html_report(findings, risk)
+    generate_banner_image(risk)
