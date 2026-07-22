@@ -1,7 +1,7 @@
 import re
 
 #REGEX PATTERNS
-# Each pattern describes the "shape" of one PII type.
+#Each pattern describes the "shape" of one PII type.
 PATTERNS = {
     "email": re.compile(r"[\w.-]+@[\w.-]+\.\w+"),
     "phone_au": re.compile(r"(?:\+61|0)[ .\-]?[2-478](?:[ .\-]?\d){8}"),
