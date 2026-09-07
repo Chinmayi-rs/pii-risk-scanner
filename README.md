@@ -68,7 +68,7 @@ Open `reports/pii_report.html` in a browser to view the report.
   (e.g. credit card numbers) as false-positive phone matches, since every column is 
   checked against every detector. This is a deliberate trade-off - it means the tool 
   also catches PII sitting in the wrong column - but it's a known source of noise.
-- Built as a 2-day proof-of-concept, not a production-grade DLP solution.
-- This same column-overlap behavior can cause corrupted output (not just mislabeling) in 
+  This same column-overlap behavior can cause corrupted output (not just mislabeling) in 
   the companion [PII Redaction Tool](https://github.com/Chinmayi-rs/pii-redaction-tool), 
   where overlapping matches are actually substituted in-place rather than just flagged.
+- Built as a 2-day proof-of-concept, not a production-grade DLP solution.
