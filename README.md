@@ -12,6 +12,8 @@ of Computer Science and software development internships). This project explores
 sensitive data discovery and risk classification work in practice - the kind of problem 
 relevant to any organisation handling client data at scale.
 
+[Note: I later built a PII Redaction Tool as a follow-up, where this project detects and risk-scores PII, that one actually remediates it (via redaction or reversible tokenization).]
+
 ## What it does
 
 1. **Generates synthetic test data** - a fake customer dataset (names, emails, AU phone 
