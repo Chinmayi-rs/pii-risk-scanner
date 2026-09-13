@@ -1,4 +1,5 @@
 import re
+MAX_CELL_LENGTH = 1000  # cells longer than this are skipped to mitigate ReDoS risk
 
 #REGEX PATTERNS
 #Each pattern describes the "shape" of one PII type.
@@ -28,18 +29,25 @@ def is_luhn_valid(card_number: str) -> bool:
 
 #DETECTION FUNCTIONS 
 def find_emails(text: str) -> list:
-    return PATTERNS["email"].findall(str(text))
+    text = str(text)
+    if len(text) > MAX_CELL_LENGTH:
+            return []
+    return PATTERNS["email"].findall((text))
 
 
 def find_phones(text: str) -> list:
-    return PATTERNS["phone_au"].findall(str(text))
-
+    text = str(text)
+    if len(text) > MAX_CELL_LENGTH:
+            return []
+    return PATTERNS["phone_au"].findall((text))
 
 def find_credit_cards(text: str) -> list:
-    candidates = PATTERNS["credit_card"].findall(str(text))
+    text = str(text)
+    if len(text) > MAX_CELL_LENGTH:
+        return []
+    candidates = PATTERNS["credit_card"].findall(text)
     valid_cards = [c for c in candidates if is_luhn_valid(c)]
     return valid_cards
-
 
 #QUICK SELF-TEST
 if __name__ == "__main__":
